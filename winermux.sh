@@ -67,7 +67,7 @@ winedesktop() {
     -i|--install)
 	export GLIBC_PREFIX=/data/data/com.termux/files/usr/glibc
 	if [ -d "$GLIBC_PREFIX/opt/wine" ]; then
-        echo "${GRAY}[$TIME]${RED}[Error]${GRAY}: Wine is already installed."
+        echo -e "${GRAY}[$TIME]${RED}[Error]${GRAY}: Wine is already installed."
         exit 0
 	else
 	export GLIBC_PREFIX=/data/data/com.termux/files/usr/glibc
