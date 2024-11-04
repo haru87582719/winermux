@@ -27,9 +27,9 @@ while [ $# -gt 0 ]; do
 winedesktop() {
 	export XDG_RUNTIME_DIR=${TMPDIR}
 	export DISPLAY=:0
-	echo -r "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Starting Termux-x11 ..."
+	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Starting Termux-x11 ..."
 	termux-x11 :0 &
-	echo -r "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Starting Pulseaudio ..."
+	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Starting Pulseaudio ..."
 	pulseaudio --verbose --start --exit-idle-time=-1 --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1"
 	am start --user 0 -n com.termux.x11/com.termux.x11.MainActivity
 	unset LD_PRELOAD
