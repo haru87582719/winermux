@@ -55,7 +55,7 @@ winedesktop() {
 	export GLIBC_PREFIX=/data/data/com.termux/files/usr/glibc
 	export PATH=$GLIBC_PREFIX/bin:$PATH
 	export WINEPREFIX=$GLIBC_PREFIX/opt/.wine
-	box64 $GLIBC_PREFIX/opt/wine/bin/wine wineboot > /sdcard/winermux/wineboot_log.txt 2>&1
+	box64 $GLIBC_PREFIX/opt/wine/bin/wine wineboot > /dev/null 2>&1
 	winedesktop
 	exit
 	fi
