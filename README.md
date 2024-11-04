@@ -6,7 +6,7 @@ pkg update -y && pkg upgrade -y && pkg install curl git -y
 ```
 
 ```
-git clone https://github.com/gesuto139/winermux && cd winermux && chmod +x winermux && ./winermux --install
+git clone https://github.com/gesuto139/winermux && cd winermux && chmod +x winermux.sh && ./winermux.sh --install
 ````
 
 # How to fix garbled Japanese characters
@@ -26,5 +26,5 @@ cd winermux/locale && chmod +x locale locale-gen && ./locale-gen
 Execute the command following.
 
 ```
-./winermux --remove
+./winermux.sh --remove
 ```
