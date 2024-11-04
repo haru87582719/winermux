@@ -128,7 +128,7 @@ install_wine(){
 	esac
       ;;
    -v|--version)
-	echo "1.0.0"
+	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Version: 1.0.0"
 	exit 0
 	;;
 
