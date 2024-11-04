@@ -1,5 +1,6 @@
 # How to install winermux
-Wine execute in termux
+
+Execute the command following.
 
 ```
 pkg update -y && pkg upgrade -y && pkg install curl git -y
