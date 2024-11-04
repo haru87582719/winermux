@@ -103,7 +103,7 @@ install_wine(){
       ;;
     -r|--remove)
 	export GLIBC_PREFIX=/data/data/com.termux/files/usr/glibc
-	echo -n "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Do you remove wine? [Y/n]: "
+	echo -e -n "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Do you remove wine? [Y/n]: "
 	read ANS
 
 	case $ANS in
