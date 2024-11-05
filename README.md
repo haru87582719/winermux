@@ -3,8 +3,8 @@ The script executing windows application in termux.
 
 # Minimum Requirements:
 ・Andorid 10+  
-・[Termux](https://f-droid.org/packages/com.termux/"Termux")  
-・[Termux:X11](https://github.com/termux/termux-x11/releases"Termux:X11")  
+・[Termux](https://f-droid.org/packages/com.termux/)  
+・[Termux:X11](https://github.com/termux/termux-x11/releases)  
 ・1.8 - 2.0GB of free storage  
 
 # How to install winermux:
