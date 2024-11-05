@@ -21,7 +21,7 @@ pkg update -y && pkg upgrade -y && pkg install curl git -y
 ```
 
 ```
-git clone https://github.com/gesuto139/winermux && cd winermux && chmod +x winermux.sh && ./winermux.sh --install
+git clone https://github.com/haru87582719/winermux && cd winermux && chmod +x winermux.sh && ./winermux.sh --install
 ````
 
 # How to fix garbled Japanese characters
