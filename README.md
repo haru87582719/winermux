@@ -1,3 +1,17 @@
+# Winermux 
+The script executing windows application in termux.
+
+# Required environment
+・Andorid verison: 10～
+
+・CPU: aarch64
+
+・Termux 
+
+・Termux x11
+
+・
+
 # How to install winermux
 
 Execute the command following.
