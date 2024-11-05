@@ -36,10 +36,10 @@ winedesktop() {
 	export GLIBC_PREFIX=/data/data/com.termux/files/usr/glibc
 	export PATH=$GLIBC_PREFIX/bin:$PATH
 	export BOX64_PATH=$PREFIX/glibc/opt/wine/bin/
-	export BOX64_LD_LIBRARY_PATH=$GLIBC_PREFIX/opt/wine/lib/i386-unix/:$GLIBC_PREFIX/glibc/opt/wine/lib/wine/x86_64-unix/:/lib/i386-linux-gnu/:/lib/x86_64-linux-gnu:/lib/aarch64-linux-gnu/:/lib/arm-linux-gnueabihf/:$PREFIX/glibc/lib/
+	export BOX64_LD_LIBRARY_PATH=$PREFIX/glibc/opt/wine/lib/wine/x86_64-unix/:$PREFIX/glibc/lib/
 	export PULSE_SERVER=127.0.0.1
 	export WINEPREFIX=$GLIBC_PREFIX/opt/.wine
-	DISPLAY=:0 LC_ALL=ja_JP.utf8 taskset -c 2-3 box64 $GLIBC_PREFIX/opt/wine/bin/wine explorer /desktop=shell,1280x800 cmd > /sdcard/winermux/wine_log.txt 2>&1
+	DISPLAY=:0 LC_ALL=ja_JP.utf8 box64 $GLIBC_PREFIX/opt/wine/bin/wine explorer /desktop=shell,1280x800 cmd > /sdcard/winermux/wine_log.txt 2>&1
 	pkill -f pulseaudio
 	pkill -f app_process
 	exit 0
