@@ -113,7 +113,7 @@ install_wine(){
 	rm -rf $GLIBC_PREFIX/opt/.wine
 	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Removing wine directory ..."
 	rm -rf $GLIBC_PREFIX/opt/wine
-	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Removing glibc directory ..."
+	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Removing glibc packages ..."
 	pkg uninstall freetype-glibc fontconfig-glibc libxext-glibc libxinerama-glibc libxxf86vm-glibc libxrender-glibc libxcomposite-glibc libxrandr-glibc libxi-glibc libxcursor-glibc vulkan-tools-glibc box64-glibc pulseaudio-glibc libgnutls-glibc -y > /dev/null 2>&1
 	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Remove successful."
 	else
