@@ -10,7 +10,7 @@ usage() {
   echo
   echo "Options:"
   echo "  -h, --help       Show this help message"
-  echo "  -s, --start      Start Wine"
+  echo "  -s, --start      Start Wine Desktop"
   echo "  -i, --install    Install Wine (wow64)"
   echo "  -r, --remove     Remove Wine"
   echo "  -v  --version    Show version"
