@@ -2,13 +2,13 @@
 The script executing windows application in termux.
 
 # Required environment
-・Andorid verison: 10～
+・Andorid verison: 10 ～
 
 ・CPU: aarch64
 
-・Termux 
+・Installed Termux 
 
-・Termux x11
+・Installed Termux x11
 
 ・
 
@@ -17,7 +17,7 @@ The script executing windows application in termux.
 Execute the command following.
 
 ```
-pkg update -y && pkg upgrade -y && pkg install curl git -y
+termux-setup-storage && pkg update -y && pkg upgrade -y && pkg install curl git -y
 ```
 
 ```
