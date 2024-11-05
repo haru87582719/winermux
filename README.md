@@ -29,7 +29,6 @@ wineboot -u
 cd ~/winermux/locale && chmod +x locale locale-gen && ./locale-gen
 ```   
 4. Execute wine-japanese.reg in regedit.  
-5. Restart.  
 
 # How to Uninstall winermux
 Execute the command following.  
