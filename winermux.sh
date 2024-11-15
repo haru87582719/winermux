@@ -76,7 +76,7 @@ winedesktop() {
 	pkg install pulseaudio glibc-repo x11-repo tur-repo wget curl nano -y > /dev/null 2>&1
 	pkg install termux-x11-nightly termux-am -y > /dev/null 2>&1
 	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Installing glibc packages ..."
-	pkg install freetype-glibc fontconfig-glibc libxext-glibc libxinerama-glibc libxxf86vm-glibc libxrender-glibc libxcomposite-glibc libxrandr-glibc libxi-glibc libxcursor-glibc vulkan-tools-glibc box64-glibc pulseaudio-glibc libgnutls-glibc -y > /dev/null 2>&1
+	freetype-glibc fontconfig-glibc libxext-glibc libxinerama-glibc libxxf86vm-glibc libxrender-glibc libxcomposite-glibc libxrandr-glibc libxi-glibc libxcursor-glibc vulkan-tools-glibc box64-glibc pulseaudio-glibc libgnutls-glibc gcc-glibc libunwind-glibc libx11-glibc libjpeg-turbo-glibc libtiff-glibc libpng-glibc libxfixes-glibc libxslt-glibc glu-glibc libglvnd-glibc libpulse-glibc libx11-glibc mesa-glibc -y > /dev/null 2>&1
         pkg clean
 install_wine(){
 	echo -e "${GRAY}[$TIME]${GREEN}[Information]${GRAY}: Downloading wine.tar.xz ..."
